@@ -15,7 +15,7 @@ document.getElementById('webpageForm').addEventListener('submit', function(event
     });
 
     // Send data to Google Apps Script
-    fetch('https://script.google.com/macros/s/AKfycbzCvN0z_L4jvqg-LcxcbD8ogZH6Wr-jGp_4snWThBhb1msoCKhT6_ITusfnL7BeljeZRw/exec', {
+    fetch('https://script.google.com/macros/s/AKfycbwuYjT3EH0YF8moVotF07HYk599KicrUUWDC-5GT8PulRvXD0lHAwFd73-ze05yUSbyKA/exec', {
         method: 'POST',
         mode: 'no-cors', // Add this to avoid CORS errors
         headers: {
