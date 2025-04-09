@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webpage Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Webpage Form</h1>
+        <form id="webpageForm">
+            <div class="form-section">
+                <h2>1. Your Info</h2>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="businessName">Business/Brand Name:</label>
+                <input type="text" id="businessName" name="businessName"><br><br>
+            </div>
+
+            <div class="form-section">
+                <h2>2. Purpose of the Page</h2>
+                <p>What’s the main goal of this page?</p>
+                <input type="checkbox" id="promoteProduct" name="goal" value="Promote a product/service">
+                <label for="promoteProduct">Promote a product/service</label><br>
+
+                <input type="checkbox" id="personalProfile" name="goal" value="Personal profile/resume">
+                <label for="personalProfile">Personal profile/resume</label><br>
+
+                <input type="checkbox" id="eventAnnouncement" name="goal" value="Event/Announcement">
+                <label for="eventAnnouncement">Event/Announcement</label><br>
+
+                <input type="checkbox" id="linkInBio" name="goal" value="Link-in-bio page">
+                <label for="linkInBio">Link-in-bio page</label><br>
+
+                <input type="checkbox" id="portfolio" name="goal" value="Portfolio">
+                <label for="portfolio">Portfolio</label><br>
+
+                <label for="otherGoal">Other:</label>
+                <input type="text" id="otherGoal" name="otherGoal"><br><br>
+
+                <p>What action should visitors take?</p>
+                <input type="checkbox" id="clickLink" name="action" value="Click a link/button">
+                <label for="clickLink">Click a link/button</label><br>
+
+                <input type="checkbox" id="contactYou" name="action" value="Contact you">
+                <label for="contactYou">Contact you</label><br>
+
+                <input type="checkbox" id="makePurchase" name="action" value="Make a purchase">
+                <label for="makePurchase">Make a purchase</label><br>
+
+                <input type="checkbox" id="viewWork" name="action" value="View your work">
+                <label for="viewWork">View your work</label><br>
+
+                <label for="otherAction">Other:</label>
+                <input type="text" id="otherAction" name="otherAction"><br><br>
+            </div>
+
+            <div class="form-section">
+                <h2>3. Content</h2>
+                <p>Will you provide the content (text & images)?</p>
+                <input type="radio" id="contentYes" name="provideContent" value="Yes">
+                <label for="contentYes">Yes</label><br>
+
+                <input type="radio" id="contentNo" name="provideContent" value="No">
+                <label for="contentNo">Not yet — I need help</label><br><br>
+
+                <p>Any sections you want on the page? (Check all that apply)</p>
+                <input type="checkbox" id="heroIntro" name="sections" value="Hero/Intro">
+                <label for="heroIntro">Hero/Intro</label><br>
+
+                <input type="checkbox" id="about" name="sections" value="About">
+                <label for="about">About</label><br>
+
+                <input type="checkbox" id="servicesFeatures" name="sections" value="Services or Features">
+                <label for="servicesFeatures">Services or Features</label><br>
+
+                <input type="checkbox" id="galleryPortfolio" name="sections" value="Gallery/Portfolio">
+                <label for="galleryPortfolio">Gallery/Portfolio</label><br>
+
+                <input type="checkbox" id="testimonials" name="sections" value="Testimonials">
+                <label for="testimonials">Testimonials</label><br>
+
+                <input type="checkbox" id="contactForm" name="sections" value="Contact Form">
+                <label for="contactForm">Contact Form</label><br>
+
+                <input type="checkbox" id="socialLinks" name="sections" value="Links to Socials">
+                <label for="socialLinks">Links to Socials</label><br>
+
+                <label for="otherSection">Other:</label>
+                <input type="text" id="otherSection" name="otherSection"><br><br>
+            </div>
+
+            <div class="form-section">
+                <h2>4. Style & Design</h2>
+                <p>Do you have a design in mind or a reference website?</p>
+                <input type="radio" id="designYes" name="design" value="Yes">
+                <label for="designYes">Yes</label>
+                <label for="designLink">Link:</label>
+                <input type="text" id="designLink" name="designLink"><br>
+
+                <input type="radio" id="designNo" name="design" value="No">
+                <label for="designNo">No – I’m open to ideas</label><br><br>
+
+                <p>Preferred vibe:</p>
+                <input type="radio" id="vibeClean" name="vibe" value="Clean & Minimal">
+                <label for="vibeClean">Clean & Minimal</label><br>
+
+                <input type="radio" id="vibeBold" name="vibe" value="Bold & Colorful">
+                <label for="vibeBold">Bold & Colorful</label><br>
+
+                <input type="radio" id="vibeElegant" name="vibe" value="Elegant & Professional">
+                <label for="vibeElegant">Elegant & Professional</label><br>
+
+                <input type="radio" id="vibeFun" name="vibe" value="Fun & Creative">
+                <label for="vibeFun">Fun & Creative</label><br>
+
+                <label for="otherVibe">Other:</label>
+                <input type="text" id="otherVibe" name="otherVibe"><br><br>
+
+                <p>Brand colors or logo?</p>
+                <input type="radio" id="brandProvide" name="brand" value="Provide">
+                <label for="brandProvide">I’ll provide them</label><br>
+
+                <input type="radio" id="brandJudgment" name="brand" value="Judgment">
+                <label for="brandJudgment">Use your best judgment</label><br><br>
+            </div>
+
+            <div class="form-section">
+                <h2>5. Domain & Launch</h2>
+                <p>Do you have a domain name?</p>
+                <input type="radio" id="domainYes" name="domain" value="Yes">
+                <label for="domainYes">Yes</label><br>
+
+                <input type="radio" id="domainNo" name="domain" value="No">
+                <label for="domainNo">No — I need help getting one</label><br><br>
+
+                <label for="dueDate">When do you want it done by?</label>
+                <select id="dueDate" name="dueDate">
+                    <option value="ASAP">ASAP</option>
+                    <option value="Within a week">Within a week</option>
+                    <option value="1–2 weeks">1–2 weeks</option>
+                    <option value="No rush">No rush</option>
+                </select><br><br>
+            </div>
+
+            <div class="form-section">
+                <h2>6. Anything Else?</h2>
+                <label for="additionalNotes">Other notes, special requests, or things you don’t want on the page:</label><br>
+                <textarea id="additionalNotes" name="additionalNotes" rows="4" cols="50"></textarea><br><br>
+            </div>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
